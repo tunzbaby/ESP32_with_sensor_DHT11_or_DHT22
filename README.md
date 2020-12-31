@@ -1,36 +1,36 @@
 # ESP32_with_sensor_DHT11_or_DHT22
 
-Update 2020.12.31
-Install before run:
+Update 2020.12.31<br>
+Install before run:<br>
+<br>
++ Python<br>
+$ pyserial<br>
+$ esptool<br>
+$ update-alternatives --install /usr/bin/python python /usr/bin/python3 1 // Setup python3 mac dinh<br>
 
-+ Python
-$ pyserial
-$ esptool
-$ update-alternatives --install /usr/bin/python python /usr/bin/python3 1 // Setup python3 mac dinh
++ Board:<br>
+ESP32<br>
 
-+ Board:
-ESP32
++ Lib:<br>
+IRremoteESP8266<br>
+DHT<br>
+ESP32 mail client<br>
 
-+ Lib:
-IRremoteESP8266
-DHT
-ESP32 mail client
-
-+ Ubuntu:
-$ sudo chmod a+rw /dev/ttyUSB0
++ Ubuntu:<br>
+$ sudo chmod a+rw /dev/ttyUSB0<br>
 
 
-Update 2020.10.12
-Monitor temperature and humidity on ESP32 using DHT11 or DHT22.
-Component:
-1. ESP32
-2. DHT11 or DHT22
-3. Resistor 10k
+Update 2020.10.12<br>
+Monitor temperature and humidity on ESP32 using DHT11 or DHT22.<br>
+Component:<br>
+1. ESP32<br>
+2. DHT11 or DHT22<br>
+3. Resistor 10k<br>
 
-Connection:
-ESP32 (GPIO4) ~ (PIN2) DHT11 or DHT22
-ESP32 (GPIO4) ~ Resistor 10k ~ VCC (3.3V): Pull up resitor
+Connection:<br>
+ESP32 (GPIO4) ~ (PIN2) DHT11 or DHT22<br>
+ESP32 (GPIO4) ~ Resistor 10k ~ VCC (3.3V): Pull up resitor<br>
 
-IDE:
-Arduino 1.8.13
-Python 2.7
+IDE:<br>
+Arduino 1.8.13<br>
+Python 2.7<br>
